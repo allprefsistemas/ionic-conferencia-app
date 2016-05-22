@@ -1,0 +1,33 @@
+.conta-pagina {
+
+  .fundoImagem {
+    position: relative;
+    margin-top: 70px;
+    height: 120px;
+    width: 100%;
+    background-color: color($colors, escura);
+    z-index: 1;
+  }
+
+  .fundoImagem img {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 140px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .fundoImagem h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 3;
+    color: color($colors, clara);
+  }
+
+}

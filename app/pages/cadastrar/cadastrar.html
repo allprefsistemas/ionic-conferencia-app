@@ -1,0 +1,40 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cadastrar</ion-title>
+</ion-navbar>
+
+<ion-content class="entrar-pagina">
+
+    <ion-list>
+
+        <div class="logo">
+            <img src="img/ionic-logo-white.svg">
+        </div>
+
+        <form #cadastrarForm="ngForm" novalidate>
+
+            <ion-item>
+                <ion-label floating primary>Usuário</ion-label>
+                <ion-input [(ngModel)]="cadastrar.usuario" ngControl="usuario" type="text" #usuario="ngForm" required>
+                </ion-input>
+            </ion-item>
+            <p [hidden]="usuario.valid || enviado == false" vermelho padding-left>Usuário é obrigatório</p>
+
+            <ion-item>
+                <ion-label floating primary>Senha</ion-label>
+                <ion-input [(ngModel)]="cadastrar.senha" ngControl="senha" type="senha" #senha="ngForm" required>
+                </ion-input>
+            </ion-item>
+            <p [hidden]="senha.valid || enviado == false" vermelho padding-left>Senha é obrigatória</p>
+
+            <div padding>
+                <button (click)="enviarForm(cadastrarForm)" type="submit" primary block>Criar Usuário</button>
+            </div>
+
+        </form>
+
+    </ion-list>
+
+</ion-content>

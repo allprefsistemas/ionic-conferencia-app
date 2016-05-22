@@ -1,0 +1,45 @@
+<ion-navbar *navbar>
+    <ion-title>{{sessao.nome}}</ion-title>
+</ion-navbar>
+
+<ion-content class="sessao-detalhe">
+
+    <ion-card>
+
+        <ion-card-content>
+
+            <h1 class="card-title">{{sessao.nome}}</h1>
+
+            <h2>{{formataData(sessao.data)}} | {{sessao.horaInicio}} - {{sessao.horaFinal}} : {{sessao.local}}</h2>
+
+            <p>{{sessao.descricao}} </p>
+
+        </ion-card-content>
+
+        <ion-item *ngFor="let palestrante of sessao.palestrantes" (click)="irPalestranteDetalhe(palestrante)">
+            <ion-avatar item-left>
+                <img [src]="palestrante.perfilFoto">
+            </ion-avatar>
+            <h2>{{palestrante.nome}}</h2>
+        </ion-item>
+
+        <ion-row>
+            <ion-col>
+                <button clear small [hidden]="verFavorito(sessao.id) || esconderFavorito"
+                        (click)="adicionaFavorito(sessao.id)">
+                    <ion-icon name='star'></ion-icon> Favorito
+                </button>
+            </ion-col>
+            <ion-col>
+
+            </ion-col>
+            <ion-col text-right>
+                <button clear small (click)="abrirCompartilhar(sessao)">
+                    <ion-icon name='share-alt'></ion-icon> Compartilhar
+                </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+
+</ion-content>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ionic Conferência</title>
+  <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://maps.gstatic.com/ https://*.googleapis.com/ http://localhost:* 'unsafe-inline' 'unsafe-eval'">-->
+  <meta http-equiv="Content-Security-Policy" content="script-src * 'unsafe-inline' 'unsafe-eval'">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="favicon.ico?v=1" rel="shortcut icon">
+  <!-- ionic irá decidir qual folha de estilo carregar -->
+  <link ios-href="build/css/app.ios.css" rel="stylesheet">
+  <link md-href="build/css/app.md.css" rel="stylesheet">
+  <link wp-href="build/css/app.wp.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- <ion-app> é onde o HTML do app irá carregar -->
+  <ion-app></ion-app>
+
+  <!-- cordova.js é obrigatório para os plugins cordova -->
+  <script src="cordova.js"></script>
+  <!-- Polyfill necessário para plataformas sem suporte a Promise e Collection -->
+  <script src="build/js/es6-shim.min.js"></script>
+  <!-- Zone.js e Reflect-metadata -->
+  <script src="build/js/zone.js"></script>
+  <script src="build/js/Reflect.js"></script>
+  <!--  o pacote construido a partir do código fonte do aplicativo -->
+  <script src="build/js/app.bundle.js"></script>
+
+  <!-- script do google maps é o último a ser carregado para não bloquear a renderização -->
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+</body>
+</html>

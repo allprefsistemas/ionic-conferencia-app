@@ -1,0 +1,60 @@
+<ion-navbar *navbar class="hide-border">
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-segment [(ngModel)]="seguimento" (change)="atualizaAgenda()">
+        <ion-segment-button value="todos">Todos</ion-segment-button>
+        <ion-segment-button value="favoritos">Favoritos</ion-segment-button>
+    </ion-segment>
+
+    <ion-buttons end>
+        <button (click)="filtroAtual()">
+            <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
+        </button>
+    </ion-buttons>
+</ion-navbar>
+
+<ion-toolbar>
+    <ion-searchbar primary [(ngModel)]="buscaTexto" (input)="atualizaAgenda()" placeholder="Procurar"
+                   cancelButtonText="Cancelar"></ion-searchbar>
+</ion-toolbar>
+
+<ion-content class="agenda">
+
+    <ion-list #agendaLista *ngFor="let dia of lisatagemDias" [hidden]="dia.mostraSessoes === 0">
+
+        <ion-list-header class="data">{{formataData(dia.data)}}</ion-list-header>
+
+        <ion-item-group *ngFor="let grupo of dia.grupos" [hidden]="grupo.esconder">
+
+            <ion-item-divider sticky>{{grupo.horario}}</ion-item-divider>
+
+            <ion-item-sliding *ngFor="let sessao of grupo.sessoes" #slidingItem
+                              [attr.assunto]="sessao.assuntos[0] | lowercase" [hidden]="sessao.esconder">
+
+                <button ion-item (click)="vaParaDetalhesDaSessao(sessao)">
+                    <h3>{{sessao.nome}}</h3>
+                    <p>{{formataData(sessao.data, 'curto')}} | {{sessao.horaInicio}} &mdash; {{sessao.horaFinal}} : {{sessao.local}}</p>
+                </button>
+
+                <ion-item-options>
+                    <button verde (click)="adicionaFavorito(slidingItem, sessao.id)"
+                            *ngIf="seguimento === 'todos' && !verFavorito(sessao.id)">
+                        Favorito
+                    </button>
+                    <button vermelho (click)="removeFavorito(slidingItem, sessao.id, 'Remover Favorito')"
+                            *ngIf="verFavorito(sessao.id)">
+                        Remover
+                    </button>
+                </ion-item-options>
+
+            </ion-item-sliding>
+
+        </ion-item-group>
+
+    </ion-list>
+
+    <ion-list-header [hidden]="mostraDias">Nenhuma Sessão Encontrada</ion-list-header>
+
+</ion-content>

@@ -1,0 +1,35 @@
+// http://ionicframework.com/docs/v2/theming/
+// Funções Compartilhadas do Ionic
+// --------------------------------------------------
+// Deixas as funções Sass do Ionic disponíveis ao aplicativo
+@import 'globals.core';
+
+// Variáveis Compartilhadas da Aplicativo
+// --------------------------------------------------
+// Para personalizar o visual do seu aplicativo, você pode sobre-escrever
+// as variáveis Sass encontradas no código-fonte dos arquivos scss. Definindo
+// as variáveis antes o Sass do Ionic irá utilizar as mesmas no lugar dos
+// valores padão. Os arquivos Sass compartilhados do aplicativo devem estar em
+// app.core.scss e não neste arquivo. Variáveis específicas de cada plataforma
+// devem estar em app.ios.scss, app.md.scss ou app.wp.scss.
+
+// Cores Compartilhadas do Aplicativo
+// --------------------------------------------------
+// É altamente recomendado que você altere as cores padrões para as cores de sua
+// marca ou logo. Ionic utiliza o mapa de cores Sass para você poder adicionar,
+// renomear ou remover as cores necessárias. A cor "primary" é a única obrigatória.
+// Cada plataforma (iOS, MD ou WP) podem ter cores personalizadas diferentes.
+
+$colors: (
+        primary: #387ef5,
+        secundaria: #32db64,
+        vermelho: #f53d3d,
+        clara: #f4f4f4,
+        escura: #222,
+        verde: #69BB7B,
+        facebook: #3B5998,
+        google: #d34836,
+        twitter: #53ACEB,
+        github: #333333,
+        instagram: #235D8D
+);

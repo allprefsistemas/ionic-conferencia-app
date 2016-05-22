@@ -1,0 +1,42 @@
+$categorias: (
+        ionic: color($colors, primary),
+        angular: #AC282B,
+        comunicação: #8E8D93,
+        ferramentas: #FE4C52,
+        serviços: #FD8B2D,
+        design: #FED035,
+        workshop: #69BB7B,
+        alimentação: #3BC7C4,
+        documentação: #B16BE3,
+        navegação: #6600CC,
+);
+
+@function categorias-auxiliares() {
+  @return map-remove($categorias);
+}
+
+.agenda {
+
+  @each $assunto, $valor in categorias-auxiliares() {
+    ion-item-sliding[assunto=#{$assunto}] ion-label {
+      border-left: 2px solid $valor;
+      padding-left: 10px;
+    }
+  }
+
+  .data {
+    text-align: right;
+    padding: 10px 20px;
+    margin: 0;
+    width: 100%;
+    font-size: medium;
+    background-color: color($colors, primary);
+    color: color($colors, clara);
+  }
+
+}
+
+// Relacionado: https://github.com/driftyco/ionic/issues/5055
+.ios .hide-border .toolbar-background {
+  border-bottom-color: transparent;
+}

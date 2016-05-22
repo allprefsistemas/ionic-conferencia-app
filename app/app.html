@@ -1,0 +1,57 @@
+<!-- menu desconectado -->
+<ion-menu id="menuDesconectado" [content]="content">
+
+    <ion-toolbar>
+        <ion-title>Menu</ion-title>
+    </ion-toolbar>
+
+    <ion-content class="outer-content">
+
+        <ion-list>
+            <ion-list-header>
+                Conta
+            </ion-list-header>
+            <button ion-item menuClose *ngFor="let p of desconectadoPaginas" (click)="abrePagina(p)">
+                <ion-icon item-left [name]="p.icone"></ion-icon>
+                {{p.titulo}}
+            </button>
+        </ion-list>
+    </ion-content>
+
+</ion-menu>
+
+<!-- menu conectado -->
+<ion-menu id="menuConectado" [content]="content">
+
+    <ion-toolbar>
+        <ion-title>Menu</ion-title>
+    </ion-toolbar>
+
+    <ion-content class="outer-content">
+
+        <ion-list>
+            <ion-list-header>
+                Navegação
+            </ion-list-header>
+            <button ion-item menuClose *ngFor="let p of appPaginas" (click)="abrePagina(p)">
+                <ion-icon item-left [name]="p.icone"></ion-icon>
+                {{p.titulo}}
+            </button>
+        </ion-list>
+
+        <ion-list>
+            <ion-list-header>
+                Conta
+            </ion-list-header>
+            <button ion-item menuClose *ngFor="let p of conectadoPaginas" (click)="abrePagina(p)">
+                <ion-icon item-left [name]="p.icone"></ion-icon>
+                {{p.titulo}}
+            </button>
+        </ion-list>
+
+    </ion-content>
+
+</ion-menu>
+
+<!-- navegação principal -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

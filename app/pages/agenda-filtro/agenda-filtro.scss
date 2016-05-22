@@ -1,0 +1,16 @@
+.limpa-filtros {
+  color: color($colors, vermelho);
+}
+
+@each $assunto, $valor in categorias-auxiliares() {
+
+  ion-item[assunto=#{$assunto}] .dot {
+    height: 10px;
+    display: inline-block;
+    width: 10px;
+    background-color: $valor;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+}

@@ -1,0 +1,63 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Entrar</ion-title>
+</ion-navbar>
+
+<ion-content class="entrar-pagina">
+
+    <ion-list>
+
+        <div class="logo">
+            <img src="img/ionic-logo-white.svg">
+        </div>
+
+        <ion-grid>
+            <ion-row>
+                <ion-col></ion-col>
+                <ion-col>
+                    <button (click)="entrarFacebook()" facebook block>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </button>
+                </ion-col>
+                <ion-col></ion-col>
+                <ion-col>
+                    <button (click)="entrarGoogle()" google block>
+                        <ion-icon name="logo-googleplus"></ion-icon>
+                    </button>
+                </ion-col>
+                <ion-col></ion-col>
+            </ion-row>
+        </ion-grid>
+
+        <form #entrarForm="ngForm" novalidate>
+
+            <ion-item>
+                <ion-label floating primary>Usuário</ion-label>
+                <ion-input [(ngModel)]="entrar.usuario" ngControl="usuario" type="text" #usuario="ngForm" required>
+                </ion-input>
+            </ion-item>
+            <p [hidden]="usuario.valid || enviado == false" vermelho padding-left>Usuário é obrigatório</p>
+
+            <ion-item>
+                <ion-label floating primary>Senha</ion-label>
+                <ion-input [(ngModel)]="entrar.senha" ngControl="senha" type="senha" #senha="ngForm" required>
+                </ion-input>
+            </ion-item>
+            <p [hidden]="senha.valid || enviado == false" vermelho padding-left>Senha é obrigatória</p>
+
+            <ion-row responsive-sm>
+                <ion-col>
+                    <button (click)="enviarForm(entrarForm)" type="submit" primary block>Entrar</button>
+                </ion-col>
+                <ion-col>
+                    <button (click)="fazerCadastro()" verde block>Cadastrar</button>
+                </ion-col>
+            </ion-row>
+
+        </form>
+
+    </ion-list>
+
+</ion-content>

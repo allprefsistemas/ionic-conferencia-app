@@ -1,0 +1,26 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Conta</ion-title>
+</ion-navbar>
+
+<ion-content class="conta-pagina">
+
+    <div padding-top text-center *ngIf="usuario">
+
+        <div class="fundoImagem">
+            <img src="http://www.gravatar.com/avatar?d=mm&s=140">
+            <h2>{{usuario}}</h2>
+        </div>
+
+        <ion-list inset>
+            <button ion-item (click)="trocaFoto()">Trocar Foto</button>
+            <button ion-item (click)="mudarUsuario()">Mudar Usuário</button>
+            <button ion-item (click)="mudarSenha()">Mudar Senha</button>
+            <button ion-item (click)="sair()">Sair</button>
+        </ion-list>
+
+    </div>
+
+</ion-content>

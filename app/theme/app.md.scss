@@ -1,0 +1,42 @@
+// http://ionicframework.com/docs/v2/theming/
+
+// Variáveis Sass Compartilhadas do Aplicativo
+// --------------------------------------------------
+// Variáveis Sass Compartilhadas do Aplicativo pertencem ao app.variables.scss.
+@import 'app.variables';
+
+// Variáveis Material Design do Aplicativo
+// --------------------------------------------------
+// Somente variáveis Sass do Material Design devem estar aqui
+
+// Usa a cor primária como fundo para 'toolbar-md-background'
+$toolbar-md-background:                   color($colors, primary);
+
+// Usa o fundo padrão para a barra de abas já que ela herda da barra de ferramentas (toolbar)
+$tabbar-md-background:                    #f8f8f8;
+
+// Muda a cor dos textos das abas
+$tab-button-md-active-color:              color($colors, primary);
+$tab-button-md-inactive-color:            #8c8c8c;
+
+// Change the color of the segment button text
+$toolbar-md-active-color:                 #fff;
+$toolbar-md-inactive-color:               #fff;
+$segment-button-md-text-color-activated:  #fff;
+
+// Sass Material Design do Ionic
+// --------------------------------------------------
+// Variáveis personalizadas do Aplicativo devem ser declaradas antes de importar o Ionic.
+// Ionic irá utilizar as variáveis padrão se nenhuma personalizadas por declarada.
+@import "ionic.md";
+
+// Sass Compartilhado do Aplicativo
+// --------------------------------------------------
+// Todos os arquivos Sass que fazem este aplicativo devem ir no arquivo app.core.scss.
+// Para simplesmente sobre-escrever, CSS personalizados do Aplicativo devem estar depois
+// do CSS do Ionic.
+@import 'app.core';
+
+// Somente Sass do Material Design do Aplicativo
+// --------------------------------------------------
+// CSS que devem ser aplicadas somente ao modo Material Design do Aplicativo.

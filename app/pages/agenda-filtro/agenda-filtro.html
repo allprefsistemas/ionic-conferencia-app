@@ -1,0 +1,33 @@
+<ion-toolbar>
+    <ion-buttons start>
+        <button (click)="fechar()">Cancelar</button>
+    </ion-buttons>
+    <ion-title>Filtrar Sessões</ion-title>
+    <ion-buttons end>
+        <button (click)="aplicaFiltros()">Feito</button>
+    </ion-buttons>
+</ion-toolbar>
+
+<ion-content class="outer-content">
+
+    <ion-list>
+
+        <ion-list-header>Assuntos</ion-list-header>
+
+        <ion-item *ngFor="let assunto of assuntos" [attr.assunto]="assunto.nome | lowercase">
+            <span item-left class="dot"></span>
+            <ion-label>{{assunto.nome}}</ion-label>
+            <ion-toggle [(ngModel)]="assunto.estaSelecionado" secundaria></ion-toggle>
+        </ion-item>
+
+    </ion-list>
+
+    <ion-list>
+
+        <button ion-item (click)="limpaFiltros()" vermelho detail-none class="limpa-filtros">
+            Limpa todos os Filtros
+        </button>
+
+    </ion-list>
+
+</ion-content>

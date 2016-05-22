@@ -1,0 +1,598 @@
+{
+
+  "agenda": [
+    {
+      "data": "2047-05-17",
+      "grupos": [
+        {
+          "horario": "8:00",
+          "sessoes": [
+            {
+              "id": 1,
+              "nome": "Café da Manhã",
+              "horaInicio": "8:00",
+              "horaFinal": "9:00",
+              "local": "Corredor principal",
+              "assuntos": ["Alimentação"]
+            }
+          ]
+        },
+        {
+          "horario": "9:00",
+          "sessoes": [
+            {
+              "id": 2,
+              "nome": "Introdução ao Appcamp.io",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [5],
+              "horaInicio": "9:00",
+              "horaFinal": "9:30",
+              "assuntos": ["Ionic"]
+            },
+            {
+              "id": 3,
+              "nome": "Começando com o Ionic",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [13],
+              "horaInicio": "9:30",
+              "horaFinal": "9:45",
+              "assuntos": ["Ionic"]
+            },
+            {
+              "id": 4,
+              "nome": "Ferramentas para o Ionic",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [12, 13],
+              "horaInicio": "9:45",
+              "horaFinal": "10:00",
+              "assuntos": ["Ferramentas", "Ionic"]
+            }
+          ]
+        },
+        {
+          "horario": "10:00",
+          "sessoes": [
+            {
+              "id": 5,
+              "nome": "Migrando para Ionic2",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [4, 9],
+              "horaInicio": "10:00",
+              "horaFinal": "10:15",
+              "assuntos": ["Ionic"]
+            },
+            {
+              "id": 6,
+              "nome": "A evolução dos Ionicons",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [7, 4],
+              "horaInicio": "10:15",
+              "horaFinal": "10:30",
+              "assuntos": ["Design"]
+            },
+            {
+              "id": 7,
+              "nome": "Serviços Ionic.io",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [2],
+              "horaInicio": "10:30",
+              "horaFinal": "11:00",
+              "assuntos": ["Serviços"]
+            }
+          ]
+        },
+        {
+          "horario": "11:00",
+          "sessoes": [
+            {
+              "id": 8,
+              "nome": "Ionic Workshop",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [8, 9],
+              "horaInicio": "11:00",
+              "horaFinal": "11:45",
+              "assuntos": ["Workshop"]
+            },
+            {
+              "id": 9,
+              "nome": "Interação da Comunidade",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [9, 6],
+              "horaInicio": "11:30",
+              "horaFinal": "11:50",
+              "assuntos": ["Comunicação"]
+            },
+            {
+              "id": 10,
+              "nome": "Navegação no Ionic",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [12, 4],
+              "horaInicio": "11:30",
+              "horaFinal": "12:00",
+              "assuntos": ["Navegação"]
+            }
+          ]
+        },
+        {
+          "horario": "12:00",
+          "sessoes": [
+            {
+              "id": 11,
+              "nome": "Almoço",
+              "local": "Auditório",
+              "descricao": "Venha almoçar com os fanáticos por Ionic e colocar o papo em dia.",
+              "horaInicio": "12:00",
+              "horaFinal": "1:00",
+              "assuntos": ["Alimentação"]
+            }
+          ]
+        },
+        {
+          "horario": "13:00",
+          "sessoes": [
+            {
+              "id": 12,
+              "nome": "Ionic nas Empresas",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [11],
+              "horaInicio": "13:00",
+              "horaFinal": "13:15",
+              "assuntos": ["Comunicação"]
+            },
+            {
+              "id": 13,
+              "nome": "Ionic Worldwide",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [6],
+              "horaInicio": "13:15",
+              "horaFinal": "13:30",
+              "assuntos": ["Comunicação"]
+            },
+            {
+              "id": 14,
+              "nome": "O pacote de serviços Ionic",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [10, 1],
+              "horaInicio": "13:30",
+              "horaFinal": "14:00",
+              "assuntos": ["Serviços"]
+            }
+          ]
+        },
+        {
+          "horario": "14:00",
+          "sessoes": [
+            {
+              "id": 15,
+              "nome": "Push Notifications no Ionic",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [1, 2],
+              "horaInicio": "14:00",
+              "horaFinal": "14:30",
+              "assuntos": ["Serviços"]
+            },
+            {
+              "id": 16,
+              "nome": "Documentação do Ionic",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [3],
+              "horaInicio": "14:30",
+              "horaFinal": "14:45",
+              "assuntos": ["Documentação"]
+            },
+            {
+              "id": 17,
+              "nome": "Planejamento da UX no Ionic",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [7, 5],
+              "horaInicio": "14:45",
+              "horaFinal": "15:00",
+              "assuntos": ["Design"]
+            }
+          ]
+        },
+        {
+          "horario": "15:00",
+          "sessoes": [
+            {
+              "id": 18,
+              "nome": "Diretrizes no Ionic",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [13],
+              "horaInicio": "15:00",
+              "horaFinal": "15:30",
+              "assuntos": ["Angular"]
+            },
+            {
+              "id": 19,
+              "nome": "Estados do Celular",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [12],
+              "horaInicio": "15:30",
+              "horaFinal": "15:45",
+              "assuntos": ["Navegação"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "data": "2047-05-18",
+      "grupos": [
+        {
+          "horario": "9:00",
+          "sessoes": [
+            {
+              "id": 20,
+              "nome": "Café da Manhã",
+              "horaInicio": "9:00",
+              "horaFinal": "10:00",
+              "local": "Corredor principal",
+              "assuntos": ["Alimentação"]
+            }
+          ]
+        },
+        {
+          "horario": "10:00",
+          "sessoes": [
+            {
+              "id": 21,
+              "nome": "Introdução ao Appcamp.io",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [5],
+              "horaInicio": "10:00",
+              "horaFinal": "10:30",
+              "assuntos": ["Ionic"]
+            },
+            {
+              "id": 22,
+              "nome": "Começando com o Ionic",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [13],
+              "horaInicio": "10:30",
+              "horaFinal": "10:45",
+              "assuntos": ["Ionic"]
+            },
+            {
+              "id": 23,
+              "nome": "Ferramentas para o Ionic",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [12, 13],
+              "horaInicio": "10:45",
+              "horaFinal": "11:00",
+              "assuntos": ["Ferramentas", "Ionic"]
+            }
+          ]
+        },
+        {
+          "horario": "11:00",
+          "sessoes": [
+            {
+              "id": 24,
+              "nome": "Migrando para Ionic2",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [4, 9],
+              "horaInicio": "11:00",
+              "horaFinal": "11:15",
+              "assuntos": ["Ionic"]
+            },
+            {
+              "id": 25,
+              "nome": "A evolução dos Ionicons",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [7, 4],
+              "horaInicio": "11:15",
+              "horaFinal": "11:30",
+              "assuntos": ["Design"]
+            },
+            {
+              "id": 26,
+              "nome": "Serviços Ionic.io",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [2],
+              "horaInicio": "11:30",
+              "horaFinal": "12:00",
+              "assuntos": ["Serviços"]
+            }
+          ]
+        },
+        {
+          "horario": "12:00",
+          "sessoes": [
+            {
+              "id": 27,
+              "nome": "Almoço",
+              "local": "Auditório",
+              "descricao": "Venha almoçar com os fanáticos por Ionic e colocar o papo em dia.",
+              "horaInicio": "12:00",
+              "horaFinal": "13:00",
+              "assuntos": ["Alimentação"]
+            }
+          ]
+        },
+        {
+          "horario": "13:00",
+          "sessoes": [
+            {
+              "id": 28,
+              "nome": "Ionic Workshop",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [8, 9],
+              "horaInicio": "13:00",
+              "horaFinal": "13:45",
+              "assuntos": ["Workshop"]
+            },
+            {
+              "id": 29,
+              "nome": "Interação da Comunidade",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [9, 6],
+              "horaInicio": "13:30",
+              "horaFinal": "13:50",
+              "assuntos": ["Comunicação"]
+            },
+            {
+              "id": 30,
+              "nome": "Navegação no Ionic",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [12, 4],
+              "horaInicio": "13:30",
+              "horaFinal": "14:00",
+              "assuntos": ["Navegação"]
+            }
+          ]
+        },
+        {
+          "horario": "14:00",
+          "sessoes": [
+            {
+              "id": 31,
+              "nome": "Ionic nas Empresas",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [11],
+              "horaInicio": "14:00",
+              "horaFinal": "14:15",
+              "assuntos": ["Comunicação"]
+            },
+            {
+              "id": 32,
+              "nome": "Ionic Worldwide",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [6],
+              "horaInicio": "14:15",
+              "horaFinal": "14:30",
+              "assuntos": ["Comunicação"]
+            },
+            {
+              "id": 33,
+              "nome": "O pacote de serviços Ionic",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [10, 1],
+              "horaInicio": "14:30",
+              "horaFinal": "15:00",
+              "assuntos": ["Serviços"]
+            }
+          ]
+        },
+        {
+          "horario": "15:00",
+          "sessoes": [
+            {
+              "id": 34,
+              "nome": "Push Notifications no Ionic",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [1, 2],
+              "horaInicio": "15:00",
+              "horaFinal": "15:30",
+              "assuntos": ["Serviços"]
+            },
+            {
+              "id": 35,
+              "nome": "Documentação do Ionic",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [3],
+              "horaInicio": "15:30",
+              "horaFinal": "15:45",
+              "assuntos": ["Documentação"]
+            },
+            {
+              "id": 36,
+              "nome": "Planejamento da UX no Ionic",
+              "local": "Sala 2203",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [7, 5],
+              "horaInicio": "15:45",
+              "horaFinal": "16:00",
+              "assuntos": ["Design"]
+            }
+          ]
+        },
+        {
+          "horario": "16:00",
+          "sessoes": [
+            {
+              "id": 37,
+              "nome": "Diretrizes no Ionic",
+              "local": "Sala 2201",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [13],
+              "horaInicio": "16:00",
+              "horaFinal": "16:30",
+              "assuntos": ["Angular"]
+            },
+            {
+              "id": 38,
+              "nome": "Estados do Celular",
+              "local": "Sala 2202",
+              "descricao": "Dispositivos Móveis e navegadores estão agora avançados o suficiente para desenvolvedores poderem construir aplicações de qualidade-nativas utilizando tecnologias abertas da web como HTML5, Javascript e CSS. Nesta conversa, nós iremos providenciar a base de como e porque nós criamos o Ionic, as decições de design feitas enquanto integravamos Ionic com Angular, e as considerações de performance para plataformas móveis que nosso time teve que superar.Nós iremos também avaliar as novidades e futuros lançamentos do Ionic, e conversar sobre as vantagens e benefícios de combinar o desenvolvimento para aplicações móveis e o Angular.",
+              "palestrantesID": [12],
+              "horaInicio": "16:30",
+              "horaFinal": "16:45",
+              "assuntos": ["Navegação"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+
+  "palestrantes": [
+    {
+      "id": 1,
+      "nome": "Burt Urso",
+      "perfilFoto": "img/palestrantes/bear.jpg",
+      "twitter": "allPREF",
+      "sobre": "Burt é um Urso.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 2,
+      "nome": "Charlie Guepardo",
+      "perfilFoto": "img/palestrantes/cheetah.jpg",
+      "twitter": "allPREF",
+      "sobre": "Charlie é um Guepardo.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 3,
+      "nome": "Pato Donald",
+      "perfilFoto": "img/palestrantes/duck.jpg",
+      "twitter": "allPREF",
+      "sobre": "Donald é um Pato.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 4,
+      "nome": "Eva Águia",
+      "perfilFoto": "img/palestrantes/eagle.jpg",
+      "twitter": "allPREF",
+      "sobre": "Eva é uma Águia.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 5,
+      "nome": "Ellie Elefante",
+      "perfilFoto": "img/palestrantes/elephant.jpg",
+      "twitter": "allPREF",
+      "sobre": "Ellie é um Elefante.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 6,
+      "nome": "Gino Girafa",
+      "perfilFoto": "img/palestrantes/giraffe.jpg",
+      "twitter": "allPREF",
+      "sobre": "Gino é uma Girafa.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 7,
+      "nome": "Isabella Iguana",
+      "perfilFoto": "img/palestrantes/iguana.jpg",
+      "twitter": "allPREF",
+      "sobre": "Isabella é uma Iguana.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 8,
+      "nome": "Karl Gatinho",
+      "perfilFoto": "img/palestrantes/kitten.jpg",
+      "twitter": "allPREF",
+      "sobre": "Karl é um Gatinho.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 9,
+      "nome": "Lionel Leão",
+      "perfilFoto": "img/palestrantes/lion.jpg",
+      "twitter": "allPREF",
+      "sobre": "Lionel é um Leão.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 10,
+      "nome": "Molly Camundongo",
+      "perfilFoto": "img/palestrantes/mouse.jpg",
+      "twitter": "allPREF",
+      "sobre": "Molly é um Camundongo.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 11,
+      "nome": "Paul Cachorrinho",
+      "perfilFoto": "img/palestrantes/puppy.jpg",
+      "twitter": "allPREF",
+      "sobre": "Paul é um Cachorrinho.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 12,
+      "nome": "Rachel Coelho",
+      "perfilFoto": "img/palestrantes/rabbit.jpg",
+      "twitter": "allPREF",
+      "sobre": "Rachel é um Coelho.",
+      "local": "Qualquer Lugar"
+    },
+    {
+      "id": 13,
+      "nome": "Ted Tartaruga",
+      "perfilFoto": "img/palestrantes/turtle.jpg",
+      "twitter": "allPREF",
+      "sobre": "Ted é uma Tartaruga.",
+      "local": "Qualquer Lugar"
+    }
+  ],
+
+
+  "mapa": [
+    {
+      "nome": "Centro de Convensões Monona Terrace",
+      "lat": 43.071584,
+      "lng": -89.380120,
+      "centro": true
+    },
+    {
+      "nome": "Ionic HQ",
+      "lat": 43.074395,
+      "lng": -89.381056
+    },
+    {
+      "nome": "Afterparty - Brocach Irish Pub",
+      "lat": 43.07336,
+      "lng": -89.38335
+    }
+  ]
+
+}

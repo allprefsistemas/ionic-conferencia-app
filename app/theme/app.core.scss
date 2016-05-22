@@ -1,0 +1,31 @@
+// http://ionicframework.com/docs/v2/theming/
+
+// Sass Compartilhado do Aplicativo
+// --------------------------------------------------
+// CSS que deverá ser aplicado ao aplicativo em cada modo
+
+// Importações Compartilhadas do Aplicativo
+// --------------------------------------------------
+// Essas são as várias páginas importadas que fazem este aplicativo.
+// Por padrão cada modo de design inclui essas importações compartilhadas.
+// Variáveis Sass Compartilhadas do Aplicativo pertencem ao app.variables.scss.
+
+@import "../pages/tutorial/tutorial";
+
+@import "../pages/entrar/entrar";
+
+@import "../pages/conta/conta";
+
+@import "../pages/agenda/agenda";
+
+@import "../pages/agenda-filtro/agenda-filtro";
+
+@import "../pages/sessao-detalhe/sessao-detalhe";
+
+@import "../pages/palestrantes-lista/palestrantes-lista";
+
+@import "../pages/palestrante-detalhe/palestrante-detalhe";
+
+@import "../pages/mapa/mapa";
+
+@import "../pages/sobre/sobre";

@@ -1,0 +1,36 @@
+<ion-navbar *navbar>
+    <ion-title>{{palestrante.nome}}</ion-title>
+</ion-navbar>
+
+<ion-content class="palestrante-detalhe">
+
+    <div padding-top text-center *ngIf="palestrante">
+
+        <div class="fundoImagem">
+            <img [src]="palestrante.perfilFoto" [alt]="palestrante.nome">
+            <h2>{{palestrante.nome}}</h2>
+        </div>
+
+        <ion-row>
+            <ion-col>
+                <button twitter block (click)="irRedeSocial(palestrante, 'twitter')">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col>
+                <button github block (click)="irRedeSocial(palestrante, 'github')">
+                    <ion-icon name="logo-github"></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col>
+                <button google block (click)="irRedeSocial(palestrante, 'google')">
+                    <ion-icon name="logo-googleplus"></ion-icon>
+                </button>
+            </ion-col>
+        </ion-row>
+
+        <p>{{palestrante.sobre}}</p>
+
+    </div>
+
+</ion-content>

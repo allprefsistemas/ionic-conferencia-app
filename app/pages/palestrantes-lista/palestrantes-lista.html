@@ -1,0 +1,43 @@
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Palestrantes</ion-title>
+</ion-navbar>
+
+<ion-content class="outer-content palestrantes-lista">
+
+    <ion-card *ngFor="let palestrante of palestrantes">
+
+        <ion-card-header>
+            <ion-item>
+                <ion-avatar item-left>
+                    <img [src]="palestrante.perfilFoto">
+                </ion-avatar>
+                {{palestrante.nome}}
+            </ion-item>
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-list>
+                <button ion-item *ngFor="let sessao of palestrante.sessoes" (click)="irSessaoDetalhe(sessao)">
+                    <h3>{{sessao.nome}}</h3>
+                </button>
+                <button ion-item (click)="irPalestranteDetalhe(palestrante)" class="direita">
+                    <h3>Sobre {{palestrante.nome}}</h3>
+                </button>
+            </ion-list>
+        </ion-card-content>
+
+        <ion-item>
+            <button (click)="irPalestranteTwitter(palestrante)" clear item-left>
+                <ion-icon name="logo-twitter"></ion-icon> Twitter
+            </button>
+            <button (click)="abrirPalestranteCompartilhar(palestrante)" clear item-right>
+                <ion-icon name="share"></ion-icon> Compartilhar
+            </button>
+        </ion-item>
+
+    </ion-card>
+
+</ion-content>
